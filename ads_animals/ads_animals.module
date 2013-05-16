@@ -1,0 +1,14 @@
+<?php
+/**
+ * @file
+ * Ads Animals common features.
+ */
+
+/**
+ * Implements hook_ads_taxonomy_import().
+ */
+function ads_animals_ads_taxonomy_files() {
+  return array(
+    drupal_get_path('module', 'ads_animals') . '/taxonomies/Categories.csv',
+  );
+}
