@@ -1,7 +1,7 @@
 name = Ads Animals
 description = Provides common Animal features for Ads distribution
 core = 7.x
-package = Ads
+package = ADS Animals
 version = 7.x-1.0
 project = ads_animals
 dependencies[] = ads_taxonomy
